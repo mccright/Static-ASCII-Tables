@@ -1,0 +1,8 @@
+title: Static-ascii-tables
+description: Sometimes you just need an ASCII table to assist when troubleshooting or problem-solving
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-modernist
+
+gems:
+  - jekyll-mentions
