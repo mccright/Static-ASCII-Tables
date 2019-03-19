@@ -10,4 +10,6 @@ Here are a few different formats that I use from time to time.
 
 [https://mccright.github.io/Static-ASCII-Tables/ASCII-Table-Smaller.htm](https://mccright.github.io/Static-ASCII-Tables/ASCII-Table-Smaller.htm)  
 
-[https://mccright.github.io/Static-ASCII-Tables/ASCII-Tbl-4-Phone.htm](https://mccright.github.io/Static-ASCII-Tables/ASCII-Tbl-4-Phone.htm)
+[https://mccright.github.io/Static-ASCII-Tables/ASCII-Tbl-4-Phone.htm](https://mccright.github.io/Static-ASCII-Tables/ASCII-Tbl-4-Phone.htm)  
+
+[https://mccright.github.io/Static-ASCII-Tables/ASCII-via-JS.htm](https://mccright.github.io/Static-ASCII-Tables/ASCII-via-JS.htm)  
