@@ -1,0 +1,38 @@
+<html><head></head>
+<body>
+<div class="section">
+<style>
+.data th {
+  font-size: small;
+ border: 1px solid black;
+}
+.data td {
+  font-size: small;
+  text-align: center;
+}
+.data { border-collapse: collapse }
+.data .a { border-left:  1px solid black }
+.data .c { border-right: 1px solid black }
+</style>
+<script>
+var cols = 8;
+var rows = 32;
+var docwrite = function (t) { document.write(t) };
+docwrite("<table border=0 cellspacing=0 class=data><tr>");
+for (var i = 0; i < cols; i++) docwrite("<th>Dec</th><th>Hex</th><th>Char</th>");
+docwrite("</tr>");
+for (var j = 0; j < rows; j++) {
+  docwrite("<tr>");
+  for (var i = 0; i < cols; i++) {
+    var n = i * rows + j;
+    docwrite("<td class=a>"+n+"</td><td class=b>"+n.toString(16).toUpperCase()+"</td><td class=c>&#"+n+";</td>");
+  }
+  docwrite("</tr>");
+}
+for (var i = 0; i < cols; i++) docwrite("<th>Dec</th><th>Hex</th><th>Char</th>");
+docwrite("</table>");
+</script>
+</div>
+<small>ASCII Table Generated using JavaScript (Code: http://seamons.com/projects/js/ascii_table.html)</small>
+</body>
+</html>
